@@ -1,0 +1,4526 @@
+cultureInfo es-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "ventas_vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ventas vehiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "venta vehiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "VentasVehiculos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ventas_vehiculo.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semana": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.numero_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Numero_Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Numero_Mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.datekey": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "datekey"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datekey": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.id_canal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "id_canal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id canal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_canal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "id duct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "id tube": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.tipo_canal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "tipo_canal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo canal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_canal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tipo waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tipo seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tipo channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tipo vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tipo duct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "tipo tube": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "tipo passage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "Seleccione un tipo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.canal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "canal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "canal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "duct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "tube": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "passage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.id_sede": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "id_sede"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id sede": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sede": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sede": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sede": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sede": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sede": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.nombre_sede": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "nombre_sede"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre sede": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre_sede": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.ubicacion_sede": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "ubicacion_sede"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ubicacion sede": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ubicacion_sede": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.id_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "id_Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_Cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.id_vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "id_vehiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id vehiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_vehiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification vehiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity vehiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier vehiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential vehiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.marca_vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "marca_vehiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marca vehiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "marca_vehiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.modelo_vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "modelo_vehiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modelo vehiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "modelo_vehiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.tipo_vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "tipo_vehiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo vehiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_vehiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.año_vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "año_vehiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año vehiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "año_vehiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.periodo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "periodo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "periodo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.mes_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "mes.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me.1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.id_sede_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "id_sede_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id sede 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sede_1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sede 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity sede 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier sede 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential sede 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.ppto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "ppto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ppto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "ventas_vehiculo.datekey_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "datekey_2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datekey 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "datekey_2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.canal_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Canal.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "canal.1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.segmento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Segmento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segmento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.vehiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Vehiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vehiculo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.costo_vehículo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Costo_Vehículo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo vehículo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Costo_Vehículo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.precio_venta_sin_IGV": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Precio_Venta_sin_IGV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio venta sin IGV": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Precio_Venta_sin_IGV": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.igv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "IGV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "igv": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.sede": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Sede"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sede": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.id_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Id.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification .1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity .1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier .1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "id .1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential .1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.modelo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Modelo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modelo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.version": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Version"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "version": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "story": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "side": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.precio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Precio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.imagen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Imagen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "imagen": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.ID_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "ID_Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID vendedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Vendedor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.vendedor_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Vendedor_3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedor 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Vendedor_3": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Vendedor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha_nacimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "fecha_nacimiento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha nacimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha_nacimiento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "fecha_nacimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha_nacimiento.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "fecha_nacimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha nacimiento año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha_nacimiento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "fecha_nacimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha nacimiento trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha_nacimiento.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "fecha_nacimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha nacimiento me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.fecha_nacimiento.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "VariationSource": "fecha_nacimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha nacimiento día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo.foto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VentasVehiculos",
+			          "ConceptualProperty": "Foto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "foto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "modelo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modelo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.total_ventas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "TotalVentas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total ventas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalVentas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate venta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall venta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Total de ventas por canal": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total en ventas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.unidades_vendidas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "UnidadesVendidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unidades vendidas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UnidadesVendidas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.venta_promedio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "Venta_Promedio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "venta promedio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Venta_Promedio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.num_clientes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "NumClientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num clientes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NumClientes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "number cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.venta_anual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "VentaAnual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "venta anual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VentaAnual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "modelo.top_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modelos",
+			          "ConceptualProperty": "TopVendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top vendedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TopVendedor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "best vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "first vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "leading vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "maximum vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "peak vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "upper vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "ventas_vehiculo_fecha_nacimiento_trimestre_has_ventas_vehiculo_fecha_nacimiento_me": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.trimestre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_año_has_ventas_vehiculo_fecha_nacimiento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.año": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.año"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.trimestre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.año"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_jerarquía_de_fecha_has_ventas_vehiculo_fecha_nacimiento_día": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.día": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_jerarquía_de_fecha_has_ventas_vehiculo_fecha_nacimiento_me": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_jerarquía_de_fecha_has_ventas_vehiculo_fecha_nacimiento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.trimestre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_jerarquía_de_fecha_has_ventas_vehiculo_fecha_nacimiento_año": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.año": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_nacimientos_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_me_has_ventas_vehiculo_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.me"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.día": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_trimestre_has_ventas_vehiculo_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.trimestre"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_año_has_ventas_vehiculo_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.año": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.año"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_jerarquía_de_fecha_has_ventas_vehiculo_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.día": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_jerarquía_de_fecha_has_ventas_vehiculo_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_jerarquía_de_fecha_has_ventas_vehiculo_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_jerarquía_de_fecha_has_ventas_vehiculo_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.año": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha"
+			          }
+			        },
+			        "ventas_vehiculo.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_top_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "modelo.top_vendedor": {
+			          "Target": {
+			            "Entity": "modelo.top_vendedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "modelo.top_vendedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_top_vendedor"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_venta_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "modelo.venta_anual": {
+			          "Target": {
+			            "Entity": "modelo.venta_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "modelo.venta_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_venta_anual"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_num_clientes": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "modelo.num_clientes": {
+			          "Target": {
+			            "Entity": "modelo.num_clientes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "modelo.num_clientes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_num_clientes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_venta_promedio": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "modelo.venta_promedio": {
+			          "Target": {
+			            "Entity": "modelo.venta_promedio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "modelo.venta_promedio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_venta_promedio"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_unidades_vendidas": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "modelo.unidades_vendidas": {
+			          "Target": {
+			            "Entity": "modelo.unidades_vendidas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "modelo.unidades_vendidas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_unidades_vendidas"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_total_ventas": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "modelo.total_ventas": {
+			          "Target": {
+			            "Entity": "modelo.total_ventas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "modelo.total_ventas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_total_ventas"
+			        }
+			      ]
+			    },
+			    "modelo_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "Modelos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "modelo": {
+			          "Target": {
+			            "Entity": "modelo"
+			          }
+			        },
+			        "modelo.column": {
+			          "Target": {
+			            "Entity": "modelo.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "modelo"
+			            },
+			            "Object": {
+			              "Role": "modelo.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "modelos_have_columns"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_foto": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.foto": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.foto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.foto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_fotos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_fecha_nacimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_fecha_nacimientos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_vendedor_3": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.vendedor_3": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.vendedor_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.vendedor_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_vendedor_3"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_ID_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.ID_vendedor": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.ID_vendedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.ID_vendedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_ID_vendedors"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_imagen": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.imagen": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.imagen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.imagen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_imagens"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_precio": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.precio": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.precio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.precio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_precios"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_version": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.version": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.version"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.version"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_versions"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.modelo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.modelo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.modelo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_modelos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_id_1": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.id_1": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.id_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.id_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_id_1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.vendedor": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.vendedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.vendedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_vendedors"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_sede": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.sede": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.sede"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.sede"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_sedes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_igv": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.igv": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.igv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.igv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_igvs"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_precio_venta_sin_IGV": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.precio_venta_sin_IGV": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.precio_venta_sin_IGV"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.precio_venta_sin_IGV"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_precio_venta_sin_IGVs"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_costo_vehículo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.costo_vehículo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.costo_vehículo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.costo_vehículo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_costo_vehículos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_vehiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.vehiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.vehiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_segmento": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.segmento": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.segmento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.segmento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_segmentos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.cliente": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_clientes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_canal_1": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.canal_1": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.canal_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.canal_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_canal_1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_datekey_2": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.datekey_2": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.datekey_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.datekey_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_datekey_2"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.ID": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Name": {
+			              "Role": "ventas_vehiculo.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ID_are_names_IDs_of_ventas_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_ppto": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.ppto": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.ppto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.ppto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_pptos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_id_sede_1": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.id_sede_1": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.id_sede_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.id_sede_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_id_sede_1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_mes_1": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.mes_1": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.mes_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.mes_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_mes_1"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_periodo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.periodo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.periodo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.periodo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_periodos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_año_vehiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.año_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.año_vehiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.año_vehiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_año_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_tipo_vehiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.tipo_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.tipo_vehiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.tipo_vehiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_tipo_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_modelo_vehiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.modelo_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.modelo_vehiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.modelo_vehiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_modelo_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_marca_vehiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.marca_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.marca_vehiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.marca_vehiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_marca_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_id_vehiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.id_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.id_vehiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.id_vehiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_id_vehiculos"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.nombre": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_nombres"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_id_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.id_cliente": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.id_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.id_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_id_clientes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_ubicacion_sede": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.ubicacion_sede": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.ubicacion_sede"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.ubicacion_sede"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_ubicacion_sedes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_nombre_sede": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.nombre_sede": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.nombre_sede"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.nombre_sede"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_nombre_sedes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_id_sede": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.id_sede": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.id_sede"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.id_sede"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_id_sedes"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_canal": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.canal": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.canal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.canal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_canals"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_tipo_canal": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.tipo_canal": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.tipo_canal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.tipo_canal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_tipo_canals"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_id_canal": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.id_canal": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.id_canal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.id_canal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_id_canals"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_datekey": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.datekey": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.datekey"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.datekey"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_datekeys"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_numero_me": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.numero_me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.numero_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.numero_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_numero_me"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_me"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.semana": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_semanas"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.año": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_años"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo"
+			          }
+			        },
+			        "ventas_vehiculo.fecha": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventas_vehiculos_have_fechas"
+			        }
+			      ]
+			    },
+			    "ventas_vehiculo_fecha_nacimiento_me_has_ventas_vehiculo_fecha_nacimiento_día": {
+			      "Binding": {
+			        "ConceptualEntity": "VentasVehiculos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ventas_vehiculo.fecha_nacimiento.me": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.me"
+			          }
+			        },
+			        "ventas_vehiculo.fecha_nacimiento.día": {
+			          "Target": {
+			            "Entity": "ventas_vehiculo.fecha_nacimiento.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.día"
+			            },
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ventas_vehiculo.fecha_nacimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me1"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

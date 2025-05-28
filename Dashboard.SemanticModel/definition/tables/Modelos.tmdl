@@ -1,0 +1,44 @@
+table Modelos
+	lineageTag: 665090b1-83f2-4f07-bb93-c07897bf1610
+
+	measure TotalVentas = SUM (VentasVehiculos[Precio_Venta_sin_IGV])
+		lineageTag: 1dab7a74-a6cc-4596-a1fd-692928d132d2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure UnidadesVendidas = COUNTROWS ( VentasVehiculos )
+		formatString: 0
+		lineageTag: e2d56ba5-997e-4f08-98d4-9fc4f56d2eb6
+
+	measure Venta_Promedio = DIVIDE ( [TotalVentas], [UnidadesVendidas] )
+		lineageTag: 3e9586b5-ed9a-47f5-8fc9-9a783afc6d38
+
+	measure NumClientes = DISTINCTCOUNT ( VentasVehiculos[id_cliente] )
+		formatString: 0
+		lineageTag: d2e0ad27-49ab-4cfa-81b9-042f4f85f8fa
+
+	measure VentaAnual = CALCULATE ( [TotalVentas], YEAR ( VentasVehiculos[fecha] ) )
+		lineageTag: a94b2657-d9d6-4437-a2c0-1b502767fcba
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TopVendedor = SUM ( VentasVehiculos[Precio_Venta_sin_IGV])
+		lineageTag: 1d333dca-d087-49f7-b486-7d7782ae2cf8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Column
+		formatString: 0
+		lineageTag: eac124b7-0ab2-4697-bfef-783f4039ef33
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Modelos = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 3bede770f9e2422a9179bdf42fd6013e
+

@@ -1,0 +1,24 @@
+model Model
+	culture: es-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["VentasVehiculos"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.143.878.0 (25.05)+b20aa3b866ec1b70879135a4e60e4b1301c75b21
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table VentasVehiculos
+ref table DateTableTemplate_702ee186-6186-460f-a1cd-cd5faf9834c0
+ref table LocalDateTable_5625aed5-b403-4619-a60f-bf346e6cde68
+ref table LocalDateTable_16202624-0194-4378-a4a9-1416e13d9032
+ref table Modelos
+
+ref cultureInfo es-US
+
